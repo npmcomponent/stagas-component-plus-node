@@ -8,7 +8,7 @@
  */
 
 try {
-  var Module = require('module');
+  // commented out by npm-component: var Module = require('module');
   var resolve = Module._resolveFilename;
   Module._resolveFilename = function(s, ctx){
     var mod;
